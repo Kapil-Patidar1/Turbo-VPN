@@ -1,0 +1,928 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+                                /* Navigation */
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F7F7F7;
+}
+
+.nav-text{
+    width: 60%;
+}
+
+.nav-text ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-text ul li:hover{
+    color: #FF6E30;
+    border-bottom: 3px solid #FF6E30;
+    cursor: pointer;
+}
+
+#logo{
+    height: 40px;
+}
+
+.nav-button{
+    width: 25%;
+}
+
+.nav-button ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-button button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    border: 2px solid #FB863A;
+    background: none;
+    color: #FB863A;
+    font-size: 20px;
+}
+
+.nav-bar{
+    display: none;
+}
+
+#nav-btn{
+    width: 170px;
+    height: 40px;
+    color: white;
+    /* background-color: #FB863A; */
+    background: linear-gradient(90deg, rgba(251,168,58,1) 0%, rgba(244,103,16,1) 70%);
+    border-radius: 20px;
+}
+
+                                /* Hero */
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    padding-inline: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-text{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+
+.hero-text h1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: #FF6E30;
+}
+
+.hero-text h2{
+    font-size: 30px;
+    color: grey;
+}
+
+.hero-text p{
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.hero-text p i{
+    color: #FF6E30;
+}
+
+.hero-img{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img img{
+    height: 580px;
+}
+
+.logos{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos img{
+    height: 30px;
+}
+
+.hero-text button{
+    height: 65px;
+    width: 400px;
+    font-size: 30px;
+    color: white;
+    background-color: #FF6E30;
+    border: none;
+    border-radius: 5px;
+}
+
+                            /* Get VPN */
+
+.get-vpn{
+    height: 100vh;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 70px;
+}
+
+.step-3{
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-image: url(./assets/mlogo.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.step-3 h1{
+    font-size: 40px;
+}
+
+.step-3 img{
+    height: 100px;
+    position: absolute;
+}
+
+.step-3-img{
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    width: 100%;
+    height: 40vh;
+}
+
+.step-3-img img{
+    height: 250px;
+}
+
+.step-info{
+    height: 15vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-info div{
+    padding-inline: 35px;
+    padding-block: 1px;
+}
+
+.step-info div span{
+    color: #FF6E30;
+    border-bottom: 2px solid #FF6E30;
+}
+
+.step-info div span:hover{
+    cursor: pointer;
+}
+
+.step-info div h2{
+    font-size: 30px;
+}
+
+.step-info div p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.step-btn{
+    height: 25vh;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos:last-child{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-turbo-vpn{
+    height:60px;
+    width: 350px;
+    background: linear-gradient(90deg, rgba(251,168,58,1) 0%, rgba(244,103,16,1) 70%);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 25px;
+}
+
+                            /* Explore The World */
+
+.explore-world{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+
+.explore-text{
+    height: 15vh;
+}
+
+.explore-text h1{
+    padding-bottom: 40px;
+    font-size: 50px;
+    /* background-image: url(./assets/mlogo.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.explore-world img{
+    height: 503px;
+    background-image: url(./assets/world-bg.png);
+    background-size: cover;
+    
+}
+
+                            /* VPN Better*/
+
+.vpn-better{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-better{
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-better h1{
+    font-size: 40px;
+    /* background-image: url(./assets/mlogo.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.get-better img{
+    height: 100px;
+    position: absolute;
+}
+
+.better{
+    height: auto;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    padding-inline: 100px;
+}
+
+.better-text{
+    width: 40%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.better-text h1{
+    font-size: 40px;
+}
+
+.better-text p{
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: 28px;
+    padding-inline: 65px;
+}
+
+.better-img{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.better-img img{
+    height: 580px;
+}
+
+                            /* Entertain Your Life */
+
+.your-life{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+                            /* Enhance Your Privacy */
+.data-privacy{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.life-heading{
+    padding-inline: 50px;
+}
+
+                            /* Aboutb Tirbo VPN */
+
+.about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.about-heading{
+   height: 30vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.about-heading h1{
+    font-size: 40px;
+}
+
+.about-heading img{
+    height: 100px;
+    position: absolute;
+    top: 60px;
+}
+
+.review{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    color: grey;
+}
+
+.review span{
+    width: 10%;
+    color: #FF6E30;
+    border-bottom: 2px solid #FF6E30;
+}
+
+.rating{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rating ul{
+    width: 22%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#apple-star{
+    height: 20px;
+}
+
+#gplay-star{
+    height: 20px;
+}
+
+.rating-logos{
+    height: 40px;
+}
+
+.person-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card{
+    min-height: 50vh;
+}
+
+.card-info{
+    height: 320px;
+    width: 370px;
+    border-radius: 15px;
+    box-shadow: 10px 14px 20px -6px rgba(0,0,0,0.25);
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img{
+    width: 50%;
+    display: flex;
+    padding-block: 20px;
+    justify-content: space-around;
+}
+
+.card-img img:first-child{
+    height: 60px;
+}
+
+.card-img img:last-child{
+    height:20px
+}
+
+.card-info p{
+    font-size: 18px;
+    line-height: 20.7px;
+}
+
+.card-img span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-store{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 25px;
+}
+
+.card-store img{
+    height: 35px;
+}
+
+                            /* Switch to Turbo VPN */
+
+.vpn-switch{
+    height: 70vh;
+    background-color: #F7F7F7;
+}
+
+.switch-heading{
+    height: 25vh;
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.switch-heading h1{
+    font-size: 40px;
+}
+
+.switch-heading img{
+    height: 100px;
+    position: absolute;
+}
+
+.switch-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.optimized{
+    height: 300px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.optimized img{
+    height: 180px;
+}
+
+.optimized h1{
+    text-align: center;
+    font-size: 28px;
+}
+
+                                /* Choose Your Plan */
+
+.plan{
+    height: 85vh;
+}
+
+.plan-heading{
+    height: 30vh;
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plan-heading h1{
+    font-size: 40px;
+    z-index: 2;
+}
+
+.plan-heading img{
+    height: 90px;
+    position: absolute;
+    z-index: 1;
+}
+
+.plan-info{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan-card{
+    border: 2px solid grey;
+    height: 370px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.plan-card:hover{
+    border: 2px solid #FF6E30;
+    cursor: pointer;
+}
+
+.plan-1{
+    height: 25%;
+    width: auto;
+    padding: 15px;
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+.plan-card:first-child{
+    border: 2px solid #FF6E30;
+}
+
+.plan-card:first-child .plan-1{ 
+    background-color: #FDF3DA;
+}
+
+.plan-1 h3{
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.plan-1 button{
+    height: 25px;
+    width: 130px;
+    font-size: 15px;
+    background: none;
+    border:2px solid white;
+    color: #FB863A;
+    font-weight: 700;
+}
+
+.pla-1 button:hover{
+    cursor: pointer;
+}
+
+.plan-1 img{
+    height: 90px;
+    position: absolute;
+    right: 0px;
+    top: -20px;
+}
+
+.plan-2{
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-inline: 50px;
+    text-align: center;
+}
+
+.plan-2 h1{
+    font-size:40px;
+}
+
+.plan h1 span{
+    font-size: 25px;
+}
+
+.plan-2 button{
+    height: 50px;
+    width: 210px;
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(90deg, rgba(251,168,58,1) 0%, rgba(244,103,16,1) 70%);
+    color: white;
+}
+
+                                /* Footer */
+
+footer{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F7F7F7;
+    padding: 30px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    font-size: 14px;
+    color: grey;
+    line-height: 40px;
+}
+
+footer ul li h4{
+    color: black;
+}
+
+                                /* Language */
+
+.language{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.lang-1{
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-inline: 200px;
+}
+
+.lang-1 img{
+    height: 40px;
+}
+
+.lang-1 p{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.lang-2{
+    height: auto;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-2 button{
+    height: 35px;
+    width: 90px;
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+
+.lang-2 button:hover{
+    cursor: pointer;
+}
+
+                            /* Black & White Logos */
+
+.b-w{
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 70px;
+    padding-inline: 170px;
+    padding-block: 80px;
+}
+
+.b-logo{
+    height: 90px;
+    width: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b-logo p{
+    font-size: 16px;
+    color: #999999;
+}
+
+.b-logo img{
+    height: 60px;
+}
+
+
+@media (max-width: 768px){
+
+  .nav-text, .nav-button{
+    display: none;
+  }
+
+  .nav-bar{width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+}
+
+.nav-bar img{
+    height: 50px;
+}
+
+.hero{
+    flex-direction: column;
+    height: auto;
+}
+
+.hero-text{
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.hero-img{
+    height: 70vh;
+}
+
+.hero-img img{
+    height: 400px;
+}
+
+.get-vpn{
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.step-3{
+    text-align: center;
+}
+
+.step-3-img{
+    align-items: center;
+}
+
+.step-3-img img{
+    height: 120px;
+}
+
+.step-info{
+    width: 100%;
+}
+
+.step-btn{
+    width: 100%;
+}
+
+.explore-world{
+    height: 60vh;
+}
+
+.explore-world img{
+    height: 250px;
+}
+
+.vpn-better{
+    height: auto;
+    width: 100%;
+}
+
+.better{
+    flex-direction: column;
+    width: 100%;
+    min-height:100vh;
+}
+
+.better-text{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.better-img img{
+    height: 300px;
+}
+
+
+.your-life{
+    height: auto;
+    width: 100%;
+}
+
+.data-privacy{
+    height: auto;
+    width: 100%;
+}
+
+.about{
+    width: 100%;
+    height: auto;
+}
+
+.about-heading{
+    width: 100%;
+    text-align: center;
+}
+
+.review{
+    width: 90%;
+}
+
+.person-info, .card, .card-info{
+    width: 100%;
+    align-items: center;
+}
+
+.plan{
+    height: auto;
+}
+
+.plan-info{
+    min-height: 110vh;
+    flex-wrap: wrap;
+}
+
+.language{
+    width: 100%;
+    min-height: 40vh;
+    flex-direction: column;
+}
+
+.lang-1{
+    width: 100%;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lang-1 p{
+    width: 150%;
+    text-align: center;
+}
+
+.lang-2{
+    align-items: center;
+    min-height: 15vh;
+    width: 100%;
+    justify-content: center;
+}
+
+}
